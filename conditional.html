@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        let a = prompt("Please enter your number:")
+        let b=a.toLowerCase();
+        if(b== "badhon sheikh"){
+            document.write("Ok Bro..");
+        }
+        else{
+            document.write("Try again Bro..")
+        }
+    </script> -->
+
+<script>
+    let price = prompt("Please Enter Your Price :");
+
+    if(price >=500){
+        price = price * 50 /100;
+        document.write("50% discount : ", price);
+    }
+
+    else if(price >= 300 && price<500){
+        price = price*75/100;
+        document.write("25% discount : ",price);
+    }
+    else{
+        console.log("apnar jonno kono discount nai :")
+    }
+</script>
+
+
+</body>
+</html>
